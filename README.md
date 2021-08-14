@@ -400,3 +400,11 @@
       echo "Product is $product"
 
 ```
+
+> ## Login To a remote server without entering password everytime using SSH (Secure Shell or Secure Socket Shell)
+```bash
+       step 01 : ssh-keygen    (type this command and hit enter)
+       step 02 : scp id_rsa.pub rumanB@10.5.20.38:/home/rumanB/.ssh/uploaded_key.pub
+       step-03 : cat uploaded_key.pub >> authorized_keys
+
+```
