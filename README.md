@@ -57,6 +57,9 @@
 
 > ## ls command
 ```bash
+        In which folder you are inside to check it type 'pwd' and hit enter or type 'start .'(git bash)  'open .'(Mac)
+        'pwd' will show you the path of the folder but 'start .' command will open the folder in file explorer.
+        
         ls (show all files and folders under the working directory)
 
         pwd (print working directory)
@@ -65,6 +68,10 @@
 
         ls -l -h or ls -lh  or ls -l --human-readable 
         (show info in human readable format)
+        
+        ls foldername   (this command shows all files of that folder)
+        
+        ls folder1/folder2  (this command shows inside the folder of that specified path)
 ```
 
 >## cat command
